@@ -1,0 +1,6 @@
+﻿feature,log_senior,senior_pct,vertical_m,transfer_sec,log_outage
+log_senior,1.0,0.082,-0.113,0.269,-0.028
+senior_pct,0.082,1.0,-0.04,-0.171,0.089
+vertical_m,-0.113,-0.04,1.0,0.077,0.065
+transfer_sec,0.269,-0.171,0.077,1.0,-0.034
+log_outage,-0.028,0.089,0.065,-0.034,1.0
