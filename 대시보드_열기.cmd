@@ -9,8 +9,8 @@ if errorlevel 1 (
   pause
   exit /b 1
 )
-call :serve 8501 04_본프로젝트/src/app.py
-call :serve 8502 04_본프로젝트/src/guide_app.py
+call :serve 8501 03_본프로젝트/05_코드/app.py
+call :serve 8502 03_본프로젝트/05_코드/guide_app.py
 call :open 8501
 call :open 8502
 echo 끝났습니다. 서버를 끄려면 작업 표시줄의 streamlit 창을 닫으세요.

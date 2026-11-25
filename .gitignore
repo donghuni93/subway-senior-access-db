@@ -13,19 +13,24 @@ wheels/
 .env
 
 # 본 프로젝트 수집 원본 (용량이 커서 저장소에 올리지 않음)
-04_본프로젝트/data/snapshots/
-04_본프로젝트/data/raw/api/
-04_본프로젝트/data/clean/ridership.csv
-
-# 연습1 상권 원본 (용량이 커서 제외)
-03_연습프로젝트/연습1_상권/data/
+03_본프로젝트/07_데이터/snapshots/
+03_본프로젝트/07_데이터/raw/api/
+03_본프로젝트/07_데이터/clean/ridership.csv
 
 # OMC 에이전트 작업 상태
 .omc/
 
 # GitHub에 올리지 않는 것 (수업 양식·리뷰, 제출 제안서, 연습용 원본, 개인 편집기 설정)
 02_제안서/
-05_최종제출/
+04_최종제출/
 99_보관/
 01_기획/**/*.pdf
 .vscode/
+
+# 지식 베이스 PDF (용량이 커서 md만 추적)
+00_지식베이스/raw/pdf/
+00_지식베이스/raw/ocr_pdf/
+00_지식베이스/raw/papers/
+
+# Claude Code 하네스 (개인 로컬 전용)
+.claude/
